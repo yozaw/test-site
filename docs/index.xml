@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>テストサイト – テストサイト</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on テストサイト</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 17 Apr 2023 00:00:00 +0900</lastBuildDate>
+    
+	  <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+      
+    
+    
+  </channel>
+</rss>
