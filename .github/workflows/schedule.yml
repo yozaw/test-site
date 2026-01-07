@@ -1,8 +1,8 @@
 name: scheduleupdate
 
-on:
-  schedule:
-    - cron: '5 15 * * MON-FRI'
+#on:
+#  schedule:
+#    - cron: '5 15 * * MON-FRI'
           # * * * * *
           # | | | | |- 曜日
           # | | | |--- 月
@@ -10,7 +10,10 @@ on:
           # | |------- 時
           # |--------- 分
           # 5 minutes is buffer for time lag when running actions
-# on: [ workflow_dispatch ]
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
 
 jobs:
   deploy:
