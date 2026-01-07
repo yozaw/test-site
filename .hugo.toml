@@ -1,6 +1,0 @@
-baseURL = "https://example.org/"
-defaultContentLanguage = 'ja'
-title = "test"
-theme = 'Hextra'
-
-ignoreLogs = [ 'warning-goldmark-raw-html' ]
