@@ -57,7 +57,7 @@ jobs:
         run: |
           hugo \
             --gc --minify \
-            --baseURL "https://xxx.pages.github.io/"
+            --baseURL "https://yozaw.github.io/test-site/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
