@@ -19,6 +19,8 @@ jobs:
   deploy:
     if: ${{ github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.147.9
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
